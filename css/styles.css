@@ -92,10 +92,10 @@ img {
 }
 
 .hero-button {
-  width: 200px;
   cursor: pointer;
   background-color: var(--accent-color);
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   font-size: 16px;
   line-height: 1.9;
   color: var(--second-accent-text-color);
@@ -202,9 +202,7 @@ img {
 .filter-button {
   border-radius: 4px;
   cursor: pointer;
-  min-width: 73px;
   text-align: center;
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
