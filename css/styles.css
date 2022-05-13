@@ -172,7 +172,6 @@ img {
 .adress-footer {
   font-style: normal;
   text-decoration: none;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -181,7 +180,6 @@ img {
 .contacts-footer {
   font-style: normal;
   text-decoration: none;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -231,7 +229,6 @@ img {
 }
 
 .portfolio-description {
-  
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
