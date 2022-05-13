@@ -42,7 +42,7 @@ img {
 }
 
 .logo-black {
-  color: black;
+  color: var(--text-title-color);
 }
 .logo-white {
   color: var(--second-accent-text-color) ;
@@ -121,7 +121,6 @@ img {
 
 /*section What are we doing*/
 .work-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -131,8 +130,10 @@ img {
 }
 
 /*section our team*/
+.team-section {
+  background-color: var(--accent-bg-color);
+}
 .team-subject {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -141,7 +142,6 @@ img {
   color: var(--text-title-color);
 }
 .team-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -154,7 +154,6 @@ img {
 }
 
 .team-description {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
@@ -226,7 +225,7 @@ img {
   text-decoration: none;
 }
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -234,7 +233,7 @@ img {
 }
 
 .portfolio-description {
-  font-weight: normal;
+  
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
