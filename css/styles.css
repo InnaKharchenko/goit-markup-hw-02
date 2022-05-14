@@ -20,14 +20,25 @@ img {
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
   text-decoration: none;
   color: inherit;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* WebStudio */
 /*header*/
@@ -45,7 +56,7 @@ img {
   color: var(--text-title-color);
 }
 .logo-white {
-  color: var(--second-accent-text-color) ;
+  color: var(--second-accent-text-color);
 }
 
 .nav-link {
@@ -63,6 +74,9 @@ img {
 .nav-link.current {
   color: var(--accent-color);
   text-decoration: none;
+}
+.nav-link .link:active {
+  color: var(--accent-color);
 }
 
 .contact-link {
@@ -88,6 +102,8 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--second-accent-text-color);
 }
 
@@ -167,7 +183,7 @@ img {
   background-color: var(--main-bg-color);
 }
 .footer-item {
-    text-decoration: none;
+  text-decoration: none;
 }
 .adress-footer {
   font-style: normal;
@@ -185,17 +201,18 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
+.adress-footer:hover,
+.adress-footer:focus {
+  color: var(--accent-color);
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-color);
+}
 
 /*Portfolio*/
 
 /*Filter section*/
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
 
 .filter-button {
   border-radius: 4px;
